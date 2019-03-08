@@ -12,6 +12,14 @@ and open the template in the editor.
     <body>
         <?php
         // put your code here
+        $A=10;
+        $a=10;
+        $a++;
+        $hello= "Hola DUOC";
+        echo "Saludo $hello x $A y $a";
+        echo "<br>";
+        echo 'Salduo $hello x $A y $a';
+        echo "<br>";
         ?>
     </body>
 </html>
