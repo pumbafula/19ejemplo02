@@ -10,11 +10,19 @@ and open the template in the editor.
 <html>
     <head>
         <meta charset="UTF-8">
+        <link href="estilo.css" rel="stylesheet" type="text/css"/>
         <title></title>
     </head>
     <body>
+        <p class="estilo01">Uno</p>
+        <p style="background: yellow; font-size: 25px">Dos</p>
+        <p class="estilo02">Tres</p>
+            
         <?php
         require "resultado.php";
+        
+        
+        
         // put your code here
         $A=10;
         $a=10;
